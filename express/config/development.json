@@ -1,0 +1,9 @@
+{
+    "server": {
+        "port": 1234,
+        "host": "127.0.0.1"
+    },
+    "mongo": {
+        "uri": "mongodb://kotwicki:1863@cluster0-shard-00-00.btyfh.mongodb.net:27017,cluster0-shard-00-01.btyfh.mongodb.net:27017,cluster0-shard-00-02.btyfh.mongodb.net:27017/covid?ssl=true&replicaSet=atlas-gf4i5l-shard-0&authSource=admin&retryWrites=true&w=majority"
+    }
+}
