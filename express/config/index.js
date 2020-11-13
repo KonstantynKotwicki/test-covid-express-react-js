@@ -4,7 +4,7 @@ const env = nconf.env().get("NODE_ENV")
 
 const path = require("path")
 
-const config = nconf.argv().env().file({file: path.join(__dirname, env == "production" ? "production.json" : "development.json")})
+const config = nconf.argv().env().file({file: path.join(__dirname, env + ".json")})
 
 module.exports = {
 

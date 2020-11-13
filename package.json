@@ -1,15 +1,16 @@
 {
     "scripts": {
-        "dev": "npx cross-env NODE_ENV=development node express/index.js",
-        "prod": "npx cross-env NODE_ENV=production node express/index.js"
+        "dev-win": "npx cross-env NODE_ENV=development node express/index.js",
+        "prod-win": "npx cross-env NODE_ENV=production node express/index.js",
+        "dev-lin": "npx cross-env NODE_ENV=development nodejs express/index.js",
+        "prod-lin": "npx cross-env NODE_ENV=production nodejs express/index.js"
     },
     "dependencies": {
         "express": "^4.17.1",
         "moment": "^2.29.0",
         "mongoose": "^5.10.7",
         "nconf": "^0.10.0",
-        "node-fetch": "^2.6.1",
-        "require-all": "^3.0.0"
+        "node-fetch": "^2.6.1"
     },
     "devDependencies": {
         "cross-env": "^7.0.2",
