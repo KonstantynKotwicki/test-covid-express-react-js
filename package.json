@@ -1,9 +1,7 @@
 {
     "scripts": {
-        "dev-win": "npx cross-env NODE_ENV=development node express/index.js",
-        "prod-win": "npx cross-env NODE_ENV=production node express/index.js",
-        "dev-lin": "npx cross-env NODE_ENV=development nodejs express/index.js",
-        "prod-lin": "npx cross-env NODE_ENV=production nodejs express/index.js"
+        "dev": "npx cross-env NODE_ENV=development node express/index.js",
+        "prod": "npx cross-env NODE_ENV=production node express/index.js"
     },
     "dependencies": {
         "express": "^4.17.1",
