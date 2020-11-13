@@ -10,7 +10,8 @@
         "moment": "^2.29.0",
         "mongoose": "^5.10.7",
         "nconf": "^0.10.0",
-        "node-fetch": "^2.6.1"
+        "node-fetch": "^2.6.1",
+        "npx": "^10.2.2"
     },
     "devDependencies": {
         "cross-env": "^7.0.2",
